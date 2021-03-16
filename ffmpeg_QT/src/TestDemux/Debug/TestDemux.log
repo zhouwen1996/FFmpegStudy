@@ -1,0 +1,7 @@
+﻿  main.cpp
+d:\code\ffmpeg_qt\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\code\ffmpeg_qt\src\testdemux\main.cpp(102): warning C4244: “初始化”: 从“int64_t”转换到“int”，可能丢失数据
+d:\code\ffmpeg_qt\src\testdemux\main.cpp(113): warning C4018: “<”: 有符号/无符号不匹配
+d:\code\ffmpeg_qt\src\testdemux\main.cpp(249): warning C4244: “初始化”: 从“double”转换到“__int64”，可能丢失数据
+  TestDemux.vcxproj -> D:\code\ffmpeg_QT\src\TestDemux\Debug\TestDemux.exe
+  TestDemux.vcxproj -> D:\code\ffmpeg_QT\src\TestDemux\Debug\TestDemux.pdb (Full PDB)
