@@ -1,0 +1,6 @@
+---- RTSP_IDLE Matches (5 in 2 files) ----
+Sample_comm.h (d:\code\sample_rtsp\common):	RTSP_IDLE = 0,
+Sample_venc.c (d:\code\sample_rtsp\venc):	while(pClient->status != RTSP_IDLE)
+Sample_venc.c (d:\code\sample_rtsp\venc):			g_rtspClients[pClient->index].status = RTSP_IDLE;
+Sample_venc.c (d:\code\sample_rtsp\venc):			g_rtspClients[pClient->index].status = RTSP_IDLE;
+Sample_venc.c (d:\code\sample_rtsp\venc):			if(g_rtspClients[i].status == RTSP_IDLE)
