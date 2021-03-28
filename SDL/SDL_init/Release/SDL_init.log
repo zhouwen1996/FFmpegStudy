@@ -1,0 +1,5 @@
+﻿  main.cpp
+SDL2main.lib(SDL_windows_main.obj) : error LNK2001: 无法解析的外部符号 _SDL_main
+SDL2main.lib(SDL_windows_main.obj) : error LNK2001: 无法解析的外部符号 __imp__fprintf
+SDL2main.lib(SDL_windows_main.obj) : error LNK2001: 无法解析的外部符号 __imp____iob_func
+D:\code\SDL_init\Release\SDL_init.exe : fatal error LNK1120: 3 个无法解析的外部命令
