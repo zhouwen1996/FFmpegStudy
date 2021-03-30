@@ -2,3 +2,5 @@ SDL的环境部署和初步学习
 SDL_init  环境部署显示hello的bmp图片
 SDL_paintPicture  显示背景图片和前景图片叠加
 SDL_playVedio	  播放YUV视频案例
+SDL_playDesktop	  使用ffmpeg中的Libavdevice的gdigrab和dshow进行录屏+SDL显示
+SDL_playCamera	  使用ffmpeg中的Libavdevice的gdigrab的VFW和dshow对摄像头进行捕获+SDL显示
