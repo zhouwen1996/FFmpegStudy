@@ -1,0 +1,25 @@
++----------+
+|    in    |default--[464x960 1:1 yuv420p]--Parsed_overlay_1:main
+| (buffer) |
++----------+
+
+                                                        +--------------+
+Parsed_overlay_1:default--[464x960 1:1 yuv420p]--default|     out      |
+                                                        | (buffersink) |
+                                                        +--------------+
+
++----------------+
+| Parsed_movie_0 |out0--[620x282 1:1 rgba]--auto_scaler_0:default
+|    (movie)     |
++----------------+
+
+                                                      +------------------+
+in:default-------------[464x960 1:1 yuv420p]------main| Parsed_overlay_1 |default--[464x960 1:1 yuv420p]--out:default
+auto_scaler_0:default--[620x282 1:1 yuva420p]--overlay|    (overlay)     |
+                                                      +------------------+
+
+                                                +---------------+
+Parsed_movie_0:out0--[620x282 1:1 rgba]--default| auto_scaler_0 |default--[620x282 1:1 yuva420p]--Parsed_overlay_1:overlay
+                                                |    (scale)    |
+                                                +---------------+
+

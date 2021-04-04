@@ -1,0 +1,8 @@
+﻿  main.cpp
+d:\code\sdl\sdl_playdesktop\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\code\sdl\sdl_playdesktop\main.cpp(197): warning C4996: 'avpicture_get_size': 被声明为已否决
+  d:\code\sdl\sdl_playdesktop\include\libavcodec\avcodec.h(5653): note: 参见“avpicture_get_size”的声明
+d:\code\sdl\sdl_playdesktop\main.cpp(73): warning C4101: “pCodec”: 未引用的局部变量
+d:\code\sdl\sdl_playdesktop\main.cpp(71): warning C4101: “i”: 未引用的局部变量
+  SDL_playDesktop.vcxproj -> D:\code\SDL\SDL_playDesktop\Debug\SDL_playDesktop.exe
+  SDL_playDesktop.vcxproj -> D:\code\SDL\SDL_playDesktop\Debug\SDL_playDesktop.pdb (Full PDB)
