@@ -1,0 +1,35 @@
++----------+
+|    in    |default--[464x960 1:1 yuv420p]--split:default
+| (buffer) |
++----------+
+
+                                               +--------------+
+overlay:default--[464x960 1:1 yuv420p]--default|     out      |
+                                               | (buffersink) |
+                                               +--------------+
+
+                                          +---------+
+in:default--[464x960 1:1 yuv420p]--default|  split  |output0--[464x960 1:1 yuv420p]--overlay:main
+                                          | (split) |output1--[464x960 1:1 yuv420p]--crop:default
+                                          +---------+
+
+                                             +--------+
+split:output1--[464x960 1:1 yuv420p]--default|  crop  |default--[464x480 1:1 yuv420p]--vflip:default
+                                             | (crop) |
+                                             +--------+
+
+                                            +---------+
+crop:default--[464x480 1:1 yuv420p]--default|  vflip  |default--[464x480 1:1 yuv420p]--auto_scaler_0:default
+                                            | (vflip) |
+                                            +---------+
+
+                                                      +-----------+
+split:output0----------[464x960 1:1 yuv420p]------main|  overlay  |default--[464x960 1:1 yuv420p]--out:default
+auto_scaler_0:default--[464x480 1:1 yuva420p]--overlay| (overlay) |
+                                                      +-----------+
+
+                                             +---------------+
+vflip:default--[464x480 1:1 yuv420p]--default| auto_scaler_0 |default--[464x480 1:1 yuva420p]--overlay:overlay
+                                             |    (scale)    |
+                                             +---------------+
+

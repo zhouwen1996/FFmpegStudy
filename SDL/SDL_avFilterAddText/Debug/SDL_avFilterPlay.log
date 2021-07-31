@@ -1,0 +1,14 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (SDL_playDesktop.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  main.cpp
+d:\gitcode\sdl\sdl_avfilteraddtext\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\gitcode\sdl\sdl_avfilteraddtext\main.cpp(230): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\time.h(505): note: 参见“localtime”的声明
+d:\gitcode\sdl\sdl_avfilteraddtext\main.cpp(233): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1316): note: 参见“itoa”的声明
+d:\gitcode\sdl\sdl_avfilteraddtext\main.cpp(398): warning C4996: 'avpicture_get_size': 被声明为已否决
+  d:\gitcode\sdl\sdl_avfilteraddtext\include\libavcodec\avcodec.h(5653): note: 参见“avpicture_get_size”的声明
+d:\gitcode\sdl\sdl_avfilteraddtext\main.cpp(342): warning C4101: “pCodec”: 未引用的局部变量
+d:\gitcode\sdl\sdl_avfilteraddtext\main.cpp(340): warning C4101: “i”: 未引用的局部变量
+d:\gitcode\sdl\sdl_avfilteraddtext\main.cpp(129): warning C4700: 使用了未初始化的局部变量“ret”
+  SDL_avFilterPlay.vcxproj -> D:\gitCode\SDL\SDL_avFilterAddText\Debug\SDL_avFilterPlay.exe
+  SDL_avFilterPlay.vcxproj -> D:\gitCode\SDL\SDL_avFilterAddText\Debug\SDL_avFilterPlay.pdb (Full PDB)

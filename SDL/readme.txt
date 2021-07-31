@@ -6,3 +6,4 @@ SDL_playDesktop	  使用ffmpeg中的Libavdevice的gdigrab和dshow进行录屏+SD
 SDL_playCamera	  使用ffmpeg中的Libavdevice的gdigrab的VFW和dshow对摄像头进行捕获+SDL显示
 SDL_avFilterPlay  使用ffmpeg中的libavfilter将图像进行裁剪翻转叠加从而实现倒影视频图像+SDL显示\
 SDL_avFilterAddPic	实现视频的图片水印添加添加
+SDL_avFilterAddText  实现给视频增加实时时间水印
